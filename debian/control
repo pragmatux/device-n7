@@ -1,0 +1,28 @@
+Source: device-n7
+Section: embedded
+Priority: extra
+Maintainer: Ryan Kuester <rkuester@insymbols.com>
+Build-Depends: debhelper (>= 7.0.50~)
+Standards-Version: 3.9.4
+
+Package: device-n7
+Architecture: all
+Description: Root package for the Nexus 7 device
+ This is the root package for the Nexus 7 device.
+Depends:
+ ptux-essential,
+ baseconfig-ptux,
+ systemd-sysv,
+ dpkg-autoconfigure-at-boot,
+ vim-tiny,
+ procps,
+ wget,
+ module-init-tools,
+ accounts-root-password,
+ openssh-client,
+ openssh-server,
+ iproute,
+ iputils-ping,
+ apt-transport-https,
+ apt-source-ptux-device,
+ ${misc:Depends}
