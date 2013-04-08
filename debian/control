@@ -13,6 +13,8 @@ Depends:
  ptux-essential,
  baseconfig-ptux,
  systemd-sysv,
+ login-no-securetty,
+ getty-ttygs0-run,
  dpkg-autoconfigure-at-boot,
  vim-tiny,
  procps,
