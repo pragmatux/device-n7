@@ -27,4 +27,6 @@ Depends:
  iputils-ping,
  apt-transport-https,
  apt-source-ptux-device,
+ android-n7-wifi-aosp,
+ android-adb,
  ${misc:Depends}
