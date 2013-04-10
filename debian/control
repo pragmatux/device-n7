@@ -10,6 +10,7 @@ Architecture: all
 Description: Root package for the Nexus 7 device
  This is the root package for the Nexus 7 device.
 Depends:
+ linux-n7,
  ptux-essential,
  baseconfig-ptux,
  systemd-sysv,
