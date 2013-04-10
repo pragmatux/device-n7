@@ -28,5 +28,6 @@ Depends:
  apt-transport-https,
  apt-source-ptux-device,
  android-n7-wifi-aosp,
+ android-run,
  android-adb,
  ${misc:Depends}
