@@ -16,6 +16,7 @@ Depends:
  systemd-sysv,
  login-no-securetty,
  getty-ttygs0-run,
+ hostname-androidboot-serialno,
  dpkg-autoconfigure-at-boot,
  vim-tiny,
  procps,
