@@ -34,4 +34,5 @@ Depends:
  android-n7-wifi-aosp,
  android-run,
  android-adb,
+ lightserver-n7,
  ${misc:Depends}
